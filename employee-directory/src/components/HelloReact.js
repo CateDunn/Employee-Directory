@@ -20,6 +20,18 @@ function HelloReact() {
       <div className="jumbotron">
         <h1>Employee Directory</h1>
       </div>
+      <div class="row">
+    <div class="col-sm">
+      <h3>Name</h3>
+    </div>
+    <div class="col-sm">
+      <h3>Department</h3>
+    </div>
+    <div class="col-sm">
+      <h3>Email</h3>
+    </div>
+  </div>
+
       <Employees employees={employees}/>
     </div>
   );
