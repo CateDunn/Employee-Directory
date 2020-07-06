@@ -7,10 +7,21 @@ function Employees(props){
         <ul className="list-group">
           {props.employees.map(item => (
             <li className="list-group-item" key={item.id}>
-              {item.name} {item.department} {item.email}
+            <div class = "row">
+                <div class="col-sm">
+                  {item.name}
+                </div>
+                <div class="col-sm">
+                  {item.department}
+                </div>
+                <div class="col-sm">
+                {item.email}
+                </div>
+                </div>   
             </li>
           ))}
         </ul>
+        
       );
 }
 
