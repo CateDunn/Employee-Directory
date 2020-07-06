@@ -1,4 +1,5 @@
 import React from "react";
+import Employees from "./Employees"
 
 function HelloReact() {
   return (
@@ -10,6 +11,7 @@ function HelloReact() {
           <button className="btn btn-primary btn-lg">Learn more</button>
         </p>
       </div>
+      <Employees/>
     </div>
   );
 }
