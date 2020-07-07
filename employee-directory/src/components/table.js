@@ -1,5 +1,5 @@
 import React from "react";
-import Employees from "./Employees"
+import Header from "./Header"
 import { useTable, useSortBy } from 'react-table'
 
 const employees = [
@@ -54,6 +54,7 @@ function Table() {
 
   return (
     <>
+    < Header />
     <table {...getTableProps()}>
       <thead>
         {headerGroups.map(headerGroup => (
