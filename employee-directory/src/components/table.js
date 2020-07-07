@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header"
 import { useTable, useSortBy } from 'react-table'
+import './styling.css'
 
 const employees = [
   {name: "Alex Karev", department: "Pediatrics", email: "alexkarev@grey-sloan.com"},
@@ -94,7 +95,7 @@ function Table() {
       </tbody>
     </table>
     <br />
-    <div>Showing the first 20 results of {rows.length} rows</div>
+   
   </>
   )
 }

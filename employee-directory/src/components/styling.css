@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+  
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+table {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+th {
+    height: 50px;
+}

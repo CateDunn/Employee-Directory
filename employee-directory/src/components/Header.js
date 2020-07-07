@@ -1,11 +1,12 @@
 import React from "react";
+import './styling.css'
 
 
 function Header(){
    
     return (
         <div>
-          <h1>Employee Directory</h1>
+          <h1>Grey Sloan Memorial Hospital Employee Directory</h1>
         </div>
         
       );
