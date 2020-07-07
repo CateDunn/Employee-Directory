@@ -1,9 +1,10 @@
-import React from "react";
-import HelloReact from "./components/HelloReact";
+import React from 'react'
+import Table from './components/table'
 
 
 function App() {
-  return <HelloReact/>;
+  return <Table/>
+ 
 }
 
 export default App;
