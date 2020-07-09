@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header"
 import { useTable, useSortBy } from 'react-table'
 import './styling.css'
+import Search from "./search"
 
 const employees = [
   {name: "Alex Karev", department: "Pediatrics", email: "alexkarev@grey-sloan.com"},
@@ -56,6 +57,7 @@ function Table() {
   return (
     <>
     < Header />
+    < Search />
     <table {...getTableProps()}>
       <thead>
         {headerGroups.map(headerGroup => (
