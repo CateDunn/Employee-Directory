@@ -30,6 +30,7 @@ table {
 th {
     height: 50px;
     background-color: lightgray;
+    font-size: 25px;
 }
 
 input {
